@@ -1,7 +1,7 @@
  #include <iostream>
 #include <string>
 
-enum class Month{Январь=1, Февраль, Март, Апрель, Май, Июнь, Июль, Август, Сентябрь, Октябрь, Ноябрь, Декабрь};
+enum class Month{YANUARY=1, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER};
 
 int main(){
     do{
@@ -14,40 +14,40 @@ int main(){
             break;
         }
         switch (static_cast<Month>(month)){
-            case Month::Январь:
+            case Month::YANUARY:
                 std::cout<<"Январь"<<std::endl;
                 break;
-            case Month::Февраль:
+            case Month::FEBRUARY:
                 std::cout<<"Февраль"<<std::endl;
                 break;
-            case Month::Март:
+            case Month::MARCH:
                 std::cout<<"Март"<<std::endl;
                 break;
-            case Month::Апрель:
+            case Month::APRIL:
                 std::cout<<"Апрель"<<std::endl;
                 break;
-            case Month::Май:
+            case Month::MAY:
                 std::cout<<"Май"<<std::endl;
                 break;
-            case Month::Июнь:
+            case Month::JUNE:
                 std::cout<<"Июнь"<<std::endl;
                 break;
-            case Month::Июль:
+            case Month::JULY:
                 std::cout<<"Июль"<<std::endl;
                 break;
-            case Month::Август:
+            case Month::AUGUST:
                 std::cout<<"Август"<<std::endl;
                 break;
-            case Month::Сентябрь:
+            case Month::SEPTEMBER:
                 std::cout<<"Сентябрь"<<std::endl;
                 break;
-            case Month::Октябрь:
+            case Month::OCTOBER:
                 std::cout<<"Октябрь"<<std::endl;
                 break;
-            case Month::Ноябрь:
+            case Month::NOVEMBER:
                 std::cout<<"Ноябрь"<<std::endl;
                 break;
-            case Month::Декабрь:
+            case Month::DECEMBER:
                 std::cout<<"Декабрь"<<std::endl;
                 break;
             default:
